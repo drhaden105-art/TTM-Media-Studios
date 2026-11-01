@@ -25,7 +25,20 @@
 </aside>
 <main class="main">
  <header class="top"><h1 id="pageTitle">Dashboard</h1><span class="tag">TTM · MEDIA TEAM</span></header>
- <div class="content" id="content"></div>
+ <div class="content" id="content">
+<section class="welcome"><div><h2>Welcome to TTM Media Studios</h2><p>Your church media workspace for sermons, clips, photos, worship visuals and flyers.</p></div><div class="seal">✝</div></section>
+<h2 class="section-title">Choose a workspace</h2>
+<div class="tiles">
+<button class="tile" onclick="setPage('sermon')"><span class="big">▶️</span><h3>Sermon</h3><p>Create sermon thumbnails.</p></button>
+<button class="tile" onclick="setPage('clips')"><span class="big">🎬</span><h3>Clips</h3><p>Prepare short video moments.</p></button>
+<button class="tile" onclick="setPage('photos')"><span class="big">🖼️</span><h3>Photos</h3><p>Edit uploaded photos manually.</p></button>
+<button class="tile" onclick="setPage('effects')"><span class="big">✨</span><h3>Effects</h3><p>Preview worship video effects.</p></button>
+<button class="tile" onclick="setPage('minister')"><span class="big">🎤</span><h3>Ministering Now</h3><p>Display the service flyer.</p></button>
+<button class="tile" onclick="setPage('flyers')"><span class="big">📄</span><h3>Flyers</h3><p>Load and download church flyers.</p></button>
+</div>
+<section class="panel" style="margin-top:22px"><h2>Saved creations</h2><div id="savedCreations"><p class="muted">Your saved designs will appear here.</p></div></section>
+<div class="notice">Saved creations stay in this browser on this device.</div>
+</div>
 </main>
 </div>
 <script>
